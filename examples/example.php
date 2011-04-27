@@ -16,15 +16,15 @@
  * under the License.
  */
 
+require_once 'facebook-php-sdk/src/facebook.php';
 
-require '../src/facebook.php';
-
-// Create our Application instance (replace this with your appId and secret).
+// Create our Application instance.
 $facebook = new Facebook(array(
-  'appId'  => '117743971608120',
-  'secret' => '943716006e74d9b9283d4d5d8ab93204',
+  'appId' => '157872800942983',
+  'secret' => '8fb7b157a5d3f9943dd4fa5f24474f62',
   'cookie' => true,
 ));
+
 
 // We may or may not have this data based on a $_GET or $_COOKIE based session.
 //
