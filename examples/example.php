@@ -15,14 +15,18 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
+// Awesome Facebook Application
+//
+// Name: Нежни и романтични моменти!
+//
 
 
-require '../src/facebook.php';
+require_once 'facebook-php-sdk/src/facebook.php'
 
-// Create our Application instance (replace this with your appId and secret).
+// Create our Application instance.  
 $facebook = new Facebook(array(
-  'appId'  => '117743971608120',
-  'secret' => '943716006e74d9b9283d4d5d8ab93204',
+  'appId'  => '218337138179002' ,
+  'secret' => 'b27b6d68176f352a21b80512e52eb528',
   'cookie' => true,
 ));
 
